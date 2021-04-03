@@ -34,17 +34,6 @@ namespace AccountConsumer
             {
                 await busControl.StopAsync();
             }
-        }
-
-        class EventConsumer :
-        IConsumer<Message>
-        {
-            public async Task Consume(ConsumeContext<Message> context)
-            {
-                Console.WriteLine("Value: {0}", context.Message.Text);
-            }
-        }
-
-       
+        }              
     }
 }
