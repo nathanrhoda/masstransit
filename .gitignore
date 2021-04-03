@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/Bank/.vs/Bank/v16
+/src/Bank/AccountConsumer/bin/Debug/netcoreapp3.1
+/src/Bank/AccountConsumer/obj
+/src/Bank/Bank.Api/bin/Debug/net5.0
+/src/Bank/Bank.Api/obj
+/src/Bank/Bank.Messages/bin/Debug/netstandard2.0
+/src/Bank/Bank.Messages/obj
